@@ -20,7 +20,7 @@ class MLP(nn.Module):
         out = self.fc_3(out)
         return out
 
-
+# conv
 
 ''' ConvNet '''
 class ConvNet(nn.Module):
