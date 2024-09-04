@@ -5,7 +5,6 @@ import torch.nn.functional as F
 # https://github.com/BIGBALLON/CIFAR-ZOO,
 
 
-''' MLP '''
 class MLP(nn.Module):
     def __init__(self, channel, num_classes):
         super(MLP, self).__init__()
